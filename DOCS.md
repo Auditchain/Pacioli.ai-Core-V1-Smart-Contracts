@@ -82,9 +82,9 @@ Returns how many nodes `_address` owns.
 
 #### Parameters
 
-| Name      | Type    | Description |
-| --------- | ------- | ----------- |
-| \_address | address | undefined   |
+| Name      | Type    | Description                                             |
+| --------- | ------- | ------------------------------------------------------- |
+| \_address | address | The address for which to get the number of nodes owned. |
 
 #### Returns
 

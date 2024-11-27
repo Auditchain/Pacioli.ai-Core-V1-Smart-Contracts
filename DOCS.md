@@ -72,6 +72,26 @@ Returns how many nodes `msg.sender` owns.
 | ---- | ------- | -------------------------------------- |
 | \_0  | uint256 | Number of nodes owned by `msg.sender`. |
 
+### getOwnedNodesForAddress
+
+```solidity
+function getOwnedNodesForAddress(address _address) external view returns (uint256)
+```
+
+Returns how many nodes `_address` owns.
+
+#### Parameters
+
+| Name      | Type    | Description |
+| --------- | ------- | ----------- |
+| \_address | address | undefined   |
+
+#### Returns
+
+| Name | Type    | Description                          |
+| ---- | ------- | ------------------------------------ |
+| \_0  | uint256 | Number of nodes owned by `_address`. |
+
 ### initialize
 
 ```solidity
